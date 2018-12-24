@@ -1,0 +1,249 @@
+Highlighting groups for various occasions
+-----------------------------------------
+SpecialKey	SpecialKey
+NonText	NonText EndOfBuffer
+Directory	Directory
+ErrorMsg	ErrorMsg
+IncSearch	IncSearch
+Search	Search QuickFixLine
+MoreMsg	MoreMsg
+ModeMsg	ModeMsg
+LineNr	LineNr
+CursorLineNr	CursorLineNr
+Question	Question
+StatusLine	StatusLine
+StatusLineNC	StatusLineNC
+VertSplit	VertSplit
+Title	Title
+Visual	Visual
+VisualNOS	VisualNOS
+WarningMsg	WarningMsg diffBDiffer diffCommon diffDiffer diffIdentical diffIsA diffNoEOL
+    diffOnly diffRemoved vimWarn vimBufnrWarn
+WildMenu	WildMenu
+Folded	Folded vimFold
+FoldColumn	FoldColumn
+DiffAdd	DiffAdd
+DiffChange	DiffChange
+DiffDelete	DiffDelete
+DiffText	DiffText
+SignColumn	SignColumn
+Conceal	Conceal
+SpellBad	SpellBad
+SpellCap	SpellCap
+SpellRare	SpellRare
+SpellLocal	SpellLocal
+Pmenu	Pmenu
+PmenuSel	PmenuSel
+PmenuSbar	PmenuSbar
+PmenuThumb	PmenuThumb
+TabLine	TabLine
+TabLineSel	TabLineSel
+TabLineFill	TabLineFill
+CursorColumn	CursorColumn
+CursorLine	CursorLine
+ColorColumn	ColorColumn
+StatusLineTerm	StatusLineTerm
+StatusLineTermNC	StatusLineTermNC
+Cursor	Cursor
+
+Syntax highlighting groups
+--------------------------
+lCursor	lCursor
+MatchParen	MatchParen
+Normal	Normal Terminal htmlBold htmlItalic vimUserFunc
+ToolbarLine	ToolbarLine
+ToolbarButton	ToolbarButton
+Comment	Comment vimComment vimMtchComment vimLineComment luaComment vimScriptDelim
+    perlComment perlDATA pythonComment
+Constant	Constant Character Number Boolean Float vimNumber vimMark vimMarkNumber
+    vimPlainMark vimAddress vimHiGuiRgb vimHiNmbr luaConstant luaNumber
+    podOverIndent podEscape2 perlFloat perlNumber perlCharacter pythonNumber
+Special	Special Tag SpecialChar Delimiter SpecialComment Debug vimRegister
+    vimCmplxRepeat vimNotation vimCtrlChar vimContinue vimParenSep vimSep
+    vimFuncSID vimUserAttrbCmpltFunc vimPatSep vimPatSepZ vimPatSepR vimPatSepErr
+    vimSubstSubstr vimSubstDelim vimSubstFlags vimPlainRegister vimMapModKey
+    vimBracket vimMapMod vimMenuMod vimGroupSpecial vimIskSep luaSpecial
+    perlSpecial perlSpecialAscii perlSpecialDollar perlSpecialString
+    perlSpecialStringU perlSpecialMatch pythonEscape pythonDoctest vimSynOption
+    vimSynContains vimSynKeyContainedin vimSynNextgroup vimGroupAdd vimGroupRem
+    vimSynKeyOpt vimSynMtchOpt vimSynRegOpt vimSynMtchGrp
+Identifier	Identifier vimVar vimFBVar vimSpecFile vimFuncVar vimSpecFileMod luaFunc
+    podForKeywd podFormat podSpecial perlIdentifier perlVarPlain
+    perlVarNotInMatches perlVarSlash perlVarSimpleMember perlMethod perlPostDeref
+    perlVarPlain2 perlFunctionName perlArrow perlFiledescRead
+    perlFiledescStatement perlFormatName vimKeyCode
+Statement	Statement Conditional Repeat Label Keyword Exception HelpCommand HelpExample
+    xmlTag xmlTagName xmlEndTag vimCommand vimSubst vimAutoCmd vimLet vimMap
+    vimSyntax vimBehave vimBehaveModel vimFTCmd vimNotFunc vimAugroupKey
+    vimFuncKey vimAbb vimEchoHL vimHighlight vimNorm vimUnmap vimUserCommand
+    vimSubst1 vimSetSep vimMapBang vimHiClear vimSearchDelim luaElse luaStatement
+    luaCond luaRepeat luaLabel luaFor podCommand perlConditional perlRepeat
+    perlLabel perlFunction perlStatement perlList perlMisc perlStatementStorage
+    perlStatementControl perlStatementScalar perlStatementRegexp
+    perlStatementNumeric perlStatementList perlStatementHash perlStatementIOfunc
+    perlStatementFiledesc perlStatementVector perlStatementFiles perlStatementFlow
+    perlStatementInclude perlStatementProc perlStatementSocket perlStatementIPC
+    perlStatementNetwork perlStatementPword perlStatementTime perlStatementMisc
+    perlStatementIndirObj perlMatchStartEnd perlStatementPackage pythonStatement
+    pythonConditional pythonRepeat pythonException pythonAsync vimAuHighlight
+    vimAutoSet vimCondHL vimElseif vimKeyword vimStatement
+PreProc	PreProc Include Define Macro PreCondit markdownItalic asciidocQuotedEmphasized
+    vimOption vimEnvvar vimUserAttrbKey vimSetMod vimMenuName vimMenuNameMore
+    vimHiAttrib vimFgBgAttrib vimCommentTitle podVerbatimLine perlControl
+    perlSubAttributes perlSubAttributesCont perlSharpBang perlInclude
+    pythonInclude pythonDecorator pythonDoctestValue vimAutoCmdOpt vimHLMod
+Type	Type Structure vimAutoEvent vimGroup vimHLGroup vimPattern vimEchoHLNone
+    vimSynCase vimGroupName vimSynReg vimSyncC vimSyncGroupName vimSyncKey
+    vimSyncGroup vimSyncNone vimHiGroup vimHiTerm vimHiCTerm vimHiStartStop
+    vimHiCtermFgBg vimHiGui vimHiGuiFont vimHiGuiFgBg luaTable perlSubPrototype
+    perlSignature perlType perlStorageClass perlFunctionPRef perlPackageRef
+    perlPackageDecl pythonExceptions vimSpecial vimUserAttrb vimUserAttrbCmplt
+    vimSynType vimFTOption
+Underlined	Underlined
+Ignore	Ignore
+Error	Error vimOperError vimUserAttrbError vimUserCmdError vimElseIfErr vimSynError
+    vimSyncError luaParenError luaBraceError luaError perlElseIfError
+    perlNotEmptyLine perlSubError perlSubPrototypeError vimError vimKeyCodeError
+    vimErrSetting vimBehaveError vimFTError vimFunctionError vimAugroupError
+    vimFunc vimSubstFlagErr vimCollClassErr vimMapModErr vimSynCaseError
+    vimHiCtermError vimHiAttribList vimHiKeyError vimEmbedError
+Todo	Todo vimTodo luaTodo perlTodo pythonTodo
+String	String diffAdded vimString vimSetString vimCommentString vimPatSepZone
+    vimNotPatSep vimStringCont vimSubstTwoBS vimSynRegPat vimSynPatRange
+    vimSynNotPatRange vimSearch vimInsert luaString2 luaString podCmdText
+    podEscape perlString perlQQ perlVarSimpleMemberName perlSpecialStringU2
+    perlParensSQ perlBracketsSQ perlBracesSQ perlAnglesSQ perlParensDQ
+    perlBracketsDQ perlBracesDQ perlAnglesDQ perlMatch perlSubstitutionGQQ
+    perlSubstitutionSQ perlTranslationGQ perlStringStartEnd perlVStringV
+    perlHereDoc perlFormatField perlShellCommand perlStringUnexpanded pythonQuotes
+    pythonString pythonTripleQuotes pythonRawString
+Function	Function Operator htmlLink pythonBuiltin vimFuncName vimOper luaIn luaFunction
+    luaOperator perlOperator perlSubName pythonFunction pythonOperator
+    pythonDecoratorName
+StorageClass	StorageClass
+Typedef	Typedef
+markdownBold	markdownBold pdcemphasis
+markdownH1	markdownH1 markdownH2 markdownH3 markdownH4 markdownH5 markdownH6 pdcHeader
+markdownHeadingDelimiter	markdownHeadingDelimiter
+StartifyPath	StartifyPath
+StartifyFile	StartifyFile
+StartifyHeader	StartifyHeader
+NERDTreeDir	NERDTreeDir
+NERDTreeUp	NERDTreeUp
+htmlTagName	htmlTagName htmlEndTag htmlSpecialTagName htmlTag
+Blanks	Blanks
+vimStdPlugin	vimStdPlugin
+vimGlobal	vimGlobal
+vimIsCommand	vimIsCommand
+vimExtCmd	vimExtCmd
+vimFilter	vimFilter
+vimSet	vimSet
+vimUserCmd	vimUserCmd
+vimCmdSep	vimCmdSep
+vimFiletype	vimFiletype
+vimAugroup	vimAugroup
+vimExecute	vimExecute
+vimFunction	vimFunction
+vimOperParen	vimOperParen
+vimRegion	vimRegion
+vimSynLine	vimSynLine
+vimSetEqual	vimSetEqual
+vimEcho	vimEcho
+vimIf	vimIf
+vimFuncBody	vimFuncBody
+vimFuncBlank	vimFuncBlank
+vimEscapeBrace	vimEscapeBrace
+vimSubstRep	vimSubstRep
+vimSubstRange	vimSubstRange
+vimPatRegion	vimPatRegion
+vimCollection	vimCollection
+vimSubstPat	vimSubstPat
+vimSubstRep4	vimSubstRep4
+vimCollClass	vimCollClass
+vimMapLhs	vimMapLhs
+vimAutoCmdSpace	vimAutoCmdSpace
+vimAutoEventList	vimAutoEventList
+vimAutoCmdSfxList	vimAutoCmdSfxList
+vimMapRhs	vimMapRhs
+vimMapRhsExtend	vimMapRhsExtend
+vimMenuBang	vimMenuBang
+vimMenuPriority	vimMenuPriority
+vimMenuMap	vimMenuMap
+vimMenuRhs	vimMenuRhs
+vimNormCmds	vimNormCmds
+vimGroupList	vimGroupList
+vimAuSyntax	vimAuSyntax
+vimClusterName	vimClusterName
+vimIskList	vimIskList
+vimSynKeyRegion	vimSynKeyRegion
+vimSynMatchRegion	vimSynMatchRegion
+vimSynMtchCchar	vimSynMtchCchar
+vimSynMtchGroup	vimSynMtchGroup
+vimSynRegion	vimSynRegion
+vimSynPatMod	vimSynPatMod
+vimSyncLines	vimSyncLines
+vimSyncMatch	vimSyncMatch
+vimSyncLinebreak	vimSyncLinebreak
+vimSyncLinecont	vimSyncLinecont
+vimSyncRegion	vimSyncRegion
+vimHiLink	vimHiLink
+vimHiKeyList	vimHiKeyList
+vimHiBang	vimHiBang
+vimHiCtermColor	vimHiCtermColor
+vimHiFontname	vimHiFontname
+vimHiGuiFontname	vimHiGuiFontname
+vimHiTermcap	vimHiTermcap
+vimCommentTitleLeader	vimCommentTitleLeader
+vimLuaRegion	vimLuaRegion
+luaInnerComment	luaInnerComment
+luaIfThen	luaIfThen
+luaElseifThen	luaElseifThen
+luaThenEnd	luaThenEnd
+luaBlock	luaBlock
+luaLoopBlock	luaLoopBlock
+luaParen	luaParen
+luaTableBlock	luaTableBlock
+luaFunctionBlock	luaFunctionBlock
+vimPerlRegion	vimPerlRegion
+podBoldItalic	podBoldItalic
+podBoldOpen	podBoldOpen
+podBoldAlternativeDelimOpen	podBoldAlternativeDelimOpen
+podItalicBold	podItalicBold
+podItalicOpen	podItalicOpen
+podItalicAlternativeDelimOpen	podItalicAlternativeDelimOpen
+podNoSpaceOpen	podNoSpaceOpen
+podNoSpaceAlternativeDelimOpen	podNoSpaceAlternativeDelimOpen
+podIndexOpen	podIndexOpen
+podIndexAlternativeDelimOpen	podIndexAlternativeDelimOpen
+podBold	podBold
+podBoldAlternativeDelim	podBoldAlternativeDelim
+podItalic	podItalic
+podItalicAlternativeDelim	podItalicAlternativeDelim
+perlPOD	perlPOD
+perlBraces	perlBraces
+perlFakeGroup	perlFakeGroup
+perlFiledescStatementNocomma	perlFiledescStatementNocomma
+perlFiledescStatementComma	perlFiledescStatementComma
+perlStatementIndirObjWrap	perlStatementIndirObjWrap
+perlVarMember	perlVarMember
+perlVarBlock	perlVarBlock
+perlVarBlock2	perlVarBlock2
+perlPackageConst	perlPackageConst
+NONE	NONE
+perlHereDocStart	perlHereDocStart
+perlAutoload	perlAutoload
+perlFormat	perlFormat
+perlSync	perlSync
+perlSyncPOD	perlSyncPOD
+vimPythonRegion	vimPythonRegion
+pythonMatrixMultiply	pythonMatrixMultiply
+pythonSpaceError	pythonSpaceError
+pythonAttribute	pythonAttribute
+pythonSync	pythonSync
+vimAugroupSyncA	vimAugroupSyncA
+helpLeadBlank	helpLeadBlank
+helpNormal	helpNormal
+debugPC	debugPC
+debugBreakpoint	debugBreakpoint
+ConId	ConId
+hsType	hsType

@@ -41,7 +41,7 @@ let s:dark_red = {"cterm": "9", "gui": "#af5f5f"}
 let s:orange = {"cterm": "11", "gui": "#FF875F"} 
 let s:green = {"cterm": "2", "gui": "#87af87"}
 let s:aqua = {"cterm": "6", "gui": "#5fafaf"}
-let s:blue = {"cterm": "4", "gui": "#6E88A6"}                "I promise this is blue ;)
+let s:blue = {"cterm": "4", "gui": "#6E88A6"}
 let s:purple = {"cterm": "5", "gui": "#D18EC2"} 
 let s:dark_purple = {"cterm": "103", "gui": "#8787af"}
 let s:beige = {"cterm": "3", "gui": "#D7AFAF"} 
@@ -67,7 +67,6 @@ endfunction
 " UI components
 call Highlight("Normal", s:light_grey, s:black, s:none)
 call Highlight("Visual", s:blue, s:black, s:reverse)
-call Highlight("Terminal", s:light_grey, s:black, s:none)
 
 call Highlight("Cursor", s:light_grey, s:black, s:none)
 call Highlight("CursorLine", s:none, s:light_black, s:none)
@@ -86,7 +85,7 @@ call Highlight("NonText", s:dark_grey, s:none, s:none)
 
 " Completion Menu
 call Highlight("Pmenu", s:light_grey, s:dark_grey, s:none)
-call Highlight("PmenuSel", s:grey, s:aqua, s:none)
+call Highlight("PmenuSel", s:black, s:blue, s:none)
 call Highlight("PmenuSbar", s:none, s:grey, s:none)
 call Highlight("PmenuThumb", s:blue, s:green, s:none)
 
@@ -131,7 +130,7 @@ call Highlight("Identifier", s:beige, s:black, s:none)
 call Highlight("Function", s:blue, s:black, s:none)
 call Highlight("Ignore", s:none, s:none, s:none)
 call Highlight("PreProc", s:aqua, s:black, s:none)
-call Highlight("Special", s:blue, s:black, s:none)
+call Highlight("Special", s:beige, s:black, s:none)
 call Highlight("Statement", s:dark_red, s:black, s:none)
 call Highlight("String", s:green, s:black, s:none)
 call Highlight("Todo", s:purple, s:black, s:reverse)
@@ -142,17 +141,23 @@ call Highlight("Underlined", s:aqua, s:black, s:underline)
 call Highlight("SpecialKey", s:grey, s:black, s:none)
 call Highlight("Title", s:white, s:black, s:none)
 
+"Haskell (https://raw.githubusercontent.com/sdiehl/haskell-vim-proto/master/vim/syntax/haskell.vim)
+call Highlight("ConId", s:beige, s:black, s:none)
+call Highlight("hsType", s:purple, s:black, s:none)
 
 "Markdown
 call Highlight("markdownBold", s:white, s:black, s:bold)
 call Highlight("markdownH1", s:green, s:black, s:bold)
 call Highlight("markdownHeadingDelimiter", s:orange, s:black, s:bold)
+
+"Startify
 call Highlight("StartifyPath", s:grey, s:black, s:none)
 call Highlight("StartifyFile", s:light_grey, s:black, s:none)
 call Highlight("StartifyHeader", s:green, s:black, s:none)
+
+"NERDTree
 call Highlight("NERDTreeDir", s:blue, s:black, s:none)
 call Highlight("NERDTreeUp", s:blue, s:black, s:none)
-
 
 
 let links = [
@@ -171,7 +176,7 @@ let links = [
             \ ['Label', 'Statement'],
             \ ['Macro', 'PreProc'],
             \ ['Number', 'Constant'],
-            \ ['Operator', 'Statement'],
+            \ ['Operator', 'Function'],
             \ ['PreCondit', 'PreProc'],
             \ ['Repeat', 'Statement'],
             \ ['SpecialChar', 'Special'],
@@ -191,6 +196,9 @@ let links = [
             \ ['markdownItalic', 'Preproc'],
             \ ['markdownH2', 'markDownH1'],
             \ ['markdownH3', 'markDownH1'],
+            \ ['markdownH4', 'markDownH1'],
+            \ ['markdownH5', 'markDownH1'],
+            \ ['markdownH6', 'markDownH1'],
             \ ['asciidocQuotedEmphasized', 'Preproc'],
             \ ['diffBDiffer', 'WarningMsg'],
             \ ['diffCommon', 'WarningMsg'],
@@ -203,28 +211,10 @@ let links = [
             \ ['diffAdded', 'String'],
             \ ['pdcHeader', 'markdownH1'],
             \ ['pdcemphasis', 'markdownBold'],
-            \ ['pythonBuiltin', 'Type'],
+            \ ['pythonBuiltin', 'Function'],
             \ ['Directory', 'Function'],
             \ ]
 augroup Allomancer
     autocmd!
     autocmd ColorScheme * if expand("<amatch>") == "allomancer" | for link in links | execute 'hi link' link[0] link[1] | endfor | else | for link in links | execute 'hi link' link[0] 'NONE' | endfor | endif
 augroup END
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
