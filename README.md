@@ -1,4 +1,3 @@
-# Allomancer vim
 ![logo](/images/logo.png)
 
 A dark vim colorscheme, inspired mainly by [vim-two-firewatch](https://github.com/rakr/vim-two-firewatch) but using colors from [apprentice](https://github.com/romainl/Apprentice) and some code from both apprentice and [monokai-tasty](https://github.com/patstockwell/vim-monokai-tasty). All credit for the source code goes to the original authors. I just put it all together in a way that matched what I like and I hope to grow this colorscheme with my own ideas and improvements in the future.
