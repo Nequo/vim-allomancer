@@ -76,8 +76,8 @@ A quick tip is to add the following to your .vimrc in order to check the highlig
 
 Here's some samples of what it looks like for me in gnome-terminal with the [Iosevka](https://github.com/be5invis/Iosevka) font:
 
-### Markdown, python and nerdTree
-![allomancer](/images/allomancer-vim.png)
+### Markdown
+![allomancer](/images/allomancer-md.png)
 
-### Markdown, html and css
-![allomancer](/images/allomancer-vim2.png)
+### Python
+![allomancer](/images/allomancer-py.png)
