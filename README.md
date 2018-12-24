@@ -52,6 +52,22 @@ This is still a work in progress and the colors I use aren't in the 256 xterm co
 
 It's also available in the repo as allomancer.Xresources.
 
+## Modifying the colorscheme
+
+Since this is the first iteration of the colorscheme, I don't have a vimrc cway of changing colors. However, it is quite easy to do so yourself. Here's some things you can do:
+
+1. Change a specific color. Do this by just changing the corresponding hex value at the start of the colorscheme file
+2. Change the highlighting of some token. Just find the corresponding token and change the associated function arguments (order is: fg,bg,formatting) Remember to check that you remove anything you are changing from the links dictionary if it is in there as the first argument as that will link the token to something else and the links are done last.
+
+3. Add highlighting for some token. This can be done by adding a line with the Highlight function and the Highlight group of what you're trying to highlight.
+
+A quick tip is to add the following to your .vimrc in order to check the highlight group of what your cursor is on when you press F10 (or remap it to some other key):
+
+    map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
+    \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
+    \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
+    
+
 ## Screenshot
 
 Here's some samples of what it looks like for me in gnome-terminal with the [Iosevka](https://github.com/be5invis/Iosevka) font:
@@ -59,5 +75,5 @@ Here's some samples of what it looks like for me in gnome-terminal with the [Ios
 - Markdown, python and nerdTree
 ![allomancer](/images/allomancer-vim.png)
 
--Markdown, html and css
+- Markdown, html and css
 ![allomancer](/images/allomancer-vim2.png)
