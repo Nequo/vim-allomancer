@@ -2,11 +2,15 @@
 
 A dark vim colorscheme, inspired mainly by [vim-two-firewatch](https://github.com/rakr/vim-two-firewatch) but using colors from [apprentice](https://github.com/romainl/Apprentice) and some code from both apprentice and [monokai-tasty](https://github.com/patstockwell/vim-monokai-tasty). All credit for the source code goes to the original authors. I just put it all together in a way that matched what I like and I hope to grow this colorscheme with my own ideas and improvements in the future.
 
+![allomancer](/images/mini_vimrc.png)
+
 ## Installation
 
 To install the colorscheme you can either:
 
-1. Use a plugin manager such as [vim-plug](https://github.com/junegunn/vim-plug). Add the following to your vimrc and run :PlugInstall:
+1. Use a plugin manager such as [vim-plug](https://github.com/junegunn/vim-plug). 
+
+Add the following to your vimrc and run PlugInstall
 
     Plug 'Nequo/vim-allomancer'
 
@@ -72,8 +76,8 @@ A quick tip is to add the following to your .vimrc in order to check the highlig
 
 Here's some samples of what it looks like for me in gnome-terminal with the [Iosevka](https://github.com/be5invis/Iosevka) font:
 
-- Markdown, python and nerdTree
+### Markdown, python and nerdTree
 ![allomancer](/images/allomancer-vim.png)
 
-- Markdown, html and css
+### Markdown, html and css
 ![allomancer](/images/allomancer-vim2.png)
