@@ -21,6 +21,7 @@ Add the following to your vimrc and run PlugInstall
 
 Once installed add the following to your .vimrc
 
+    set termguicolors
     colo allomancer 
 
 ## The colorscheme isn't working?
