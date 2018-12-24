@@ -54,6 +54,10 @@ It's also available in the repo as allomancer.Xresources.
 
 ## Screenshot
 
-Here's a sample of what it looks like for me in gnome-terminal:
+Here's some samples of what it looks like for me in gnome-terminal with the [Iosevka](https://github.com/be5invis/Iosevka) font:
 
+- Markdown, python and nerdTree
 ![allomancer](/images/allomancer-vim.png)
+
+-Markdown, html and css
+![allomancer](/images/allomancer-vim2.png)
