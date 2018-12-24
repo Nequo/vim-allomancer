@@ -72,7 +72,7 @@ A quick tip is to add the following to your .vimrc in order to check the highlig
     \ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
     
 
-## Screenshot
+## Screenshots
 
 Here's some samples of what it looks like for me in gnome-terminal with the [Iosevka](https://github.com/be5invis/Iosevka) font:
 
@@ -81,3 +81,10 @@ Here's some samples of what it looks like for me in gnome-terminal with the [Ios
 
 ### Python
 ![allomancer](/images/allomancer-py.png)
+
+### Bash
+![allomancer](/images/allomancer-sh.png)
+
+### Arduino-C
+![allomancer](/images/allomancer-C.png)
+
