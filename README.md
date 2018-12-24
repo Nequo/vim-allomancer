@@ -6,8 +6,8 @@ A dark vim colorscheme, inspired mainly by [vim-two-firewatch](https://github.co
 
 To install the colorscheme you can either:
 
-1. Use a plugin manager such as [vim-plug](https://github.com/junegunn/vim-plug).
-    " Add the following to your vimrc and run :PlugInstall
+1. Use a plugin manager such as [vim-plug](https://github.com/junegunn/vim-plug). Add the following to your vimrc and run :PlugInstall:
+
     Plug 'Nequo/vim-allomancer'
 
 2. Manually clone/download the repo and move the file allomancer.vim to ".vim/colors/"
@@ -56,4 +56,4 @@ It's also available in the repo as allomancer.Xresources.
 
 Here's a sample of what it looks like for me in gnome-terminal:
 
-![allomancer]("images/allomancer-vim.png")
+![allomancer](/images/allomancer-vim.png)
