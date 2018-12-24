@@ -87,3 +87,6 @@ Here's some samples of what it looks like for me in gnome-terminal with the [Ios
 
 ### Arduino-C
 ![allomancer](/images/allomancer-C.png)
+
+### Haskell using [this](https://github.com/sdiehl/haskell-vim-proto/blob/master/vim/syntax/haskell.vim) syntax file
+![allomancer](/images/allomancer-hs.png)

@@ -176,7 +176,7 @@ let links = [
             \ ['Label', 'Statement'],
             \ ['Macro', 'PreProc'],
             \ ['Number', 'Constant'],
-            \ ['Operator', 'Function'],
+            \ ['Operator', 'Statement'],
             \ ['PreCondit', 'PreProc'],
             \ ['Repeat', 'Statement'],
             \ ['SpecialChar', 'Special'],
