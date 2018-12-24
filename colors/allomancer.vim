@@ -4,7 +4,7 @@
 " - https://github.com/romainl/Apprentice
 " 
 "Author: Nadim Edde <nadimeg@gmail.com>
-"
+"TODO: Get consistency with colors and tokens
 
 hi clear "Reset all highlighting to the defaults.  Removes all highlighting for groups added by the user
 
@@ -28,7 +28,7 @@ endif
 "Defining UI colors
 let s:black = {"cterm":"0", "gui": "#282c34"}           "Background color
 let s:light_black = {"cterm":"0", "gui": "#2c323c"}
-let s:dark_grey = {"cterm":"0", "gui": "#3e4452"}
+let s:dark_grey = {"cterm":"8", "gui": "#3e4452"}
 let s:grey = {"cterm":"8", "gui": "#55606d"}
 let s:light_grey = {"cterm": "7", "gui": "#abb2bf"}         "Foreground color
 let s:white = {"cterm": "NONE", "gui": "#d6e9ff"}
@@ -121,7 +121,7 @@ call Highlight("StatusLineTermNC", s:black, s:grey, s:none)
 call Highlight("VertSplit", s:dark_grey, s:dark_grey, s:none)
 call Highlight("WildMenu", s:black, s:orange, s:none)
 
-call Highlight("IncSearch", s:black, s:purple, s:bold_underline)
+call Highlight("IncSearch", s:black, s:dark_red, s:bold_underline)
 call Highlight("Search", s:black, s:beige, s:bold_underline)
 
 
@@ -134,7 +134,7 @@ call Highlight("PreProc", s:aqua, s:black, s:none)
 call Highlight("Special", s:blue, s:black, s:none)
 call Highlight("Statement", s:dark_red, s:black, s:none)
 call Highlight("String", s:green, s:black, s:none)
-call Highlight("Todo", s:black, s:beige, s:none)
+call Highlight("Todo", s:purple, s:black, s:reverse)
 call Highlight("Type", s:purple, s:black, s:none)
 call Highlight("StorageClass", s:light_red, s:black, s:none)
 call Highlight("TypeDef", s:purple, s:black, s:none)
@@ -144,12 +144,14 @@ call Highlight("Title", s:white, s:black, s:none)
 
 
 "Markdown
-call Highlight("markdownBold", s:light_grey, s:black, s:bold)
+call Highlight("markdownBold", s:white, s:black, s:bold)
 call Highlight("markdownH1", s:green, s:black, s:bold)
 call Highlight("markdownHeadingDelimiter", s:orange, s:black, s:bold)
 call Highlight("StartifyPath", s:grey, s:black, s:none)
 call Highlight("StartifyFile", s:light_grey, s:black, s:none)
 call Highlight("StartifyHeader", s:green, s:black, s:none)
+call Highlight("NERDTreeDir", s:blue, s:black, s:none)
+call Highlight("NERDTreeUp", s:blue, s:black, s:none)
 
 
 
@@ -201,7 +203,8 @@ let links = [
             \ ['diffAdded', 'String'],
             \ ['pdcHeader', 'markdownH1'],
             \ ['pdcemphasis', 'markdownBold'],
-            \ ['pythonBuiltin', 'Type']
+            \ ['pythonBuiltin', 'Type'],
+            \ ['Directory', 'Function'],
             \ ]
 augroup Allomancer
     autocmd!
