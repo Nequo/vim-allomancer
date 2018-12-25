@@ -43,7 +43,7 @@ let s:green = {"cterm": "2", "gui": "#87af87"}
 let s:aqua = {"cterm": "6", "gui": "#5fafaf"}
 let s:blue = {"cterm": "4", "gui": "#6E88A6"}
 let s:purple = {"cterm": "5", "gui": "#D18EC2"} 
-let s:dark_purple = {"cterm": "103", "gui": "#8787af"}
+let s:dark_purple = {"cterm": "98", "gui": "#9b87af"}
 let s:beige = {"cterm": "3", "gui": "#D7AFAF"} 
 
 "Special text properties
