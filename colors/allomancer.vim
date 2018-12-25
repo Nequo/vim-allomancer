@@ -85,9 +85,9 @@ call Highlight("NonText", s:dark_grey, s:none, s:none)
 
 " Completion Menu
 call Highlight("Pmenu", s:light_grey, s:dark_grey, s:none)
-call Highlight("PmenuSel", s:black, s:blue, s:none)
+call Highlight("PmenuSel", s:black, s:aqua, s:none)
 call Highlight("PmenuSbar", s:none, s:grey, s:none)
-call Highlight("PmenuThumb", s:blue, s:green, s:none)
+call Highlight("PmenuThumb", s:blue, s:beige, s:none)
 
 " Git diff output
 call Highlight("DiffChange", s:dark_purple, s:black, s:reverse)
@@ -127,7 +127,7 @@ call Highlight("VertSplit", s:dark_grey, s:dark_grey, s:none)
 call Highlight("WildMenu", s:black, s:orange, s:none)
 
 call Highlight("IncSearch", s:black, s:dark_red, s:bold_underline)
-call Highlight("Search", s:black, s:beige, s:bold_underline)
+call Highlight("Search", s:black, s:aqua, s:bold_underline)
 
 
 call Highlight("Comment", s:grey, s:none, s:none)
@@ -149,7 +149,7 @@ call Highlight("Title", s:white, s:black, s:none)
 
 "Haskell (https://raw.githubusercontent.com/sdiehl/haskell-vim-proto/master/vim/syntax/haskell.vim)
 call Highlight("ConId", s:beige, s:black, s:none)
-call Highlight("hsType", s:purple, s:black, s:none)
+call Highlight("hsType", s:dark_purple, s:black, s:none)
 
 "Markdown
 call Highlight("markdownBold", s:white, s:black, s:bold)
