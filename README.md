@@ -23,7 +23,7 @@ Add the following to your vimrc and run PlugInstall
 
 Once installed add the following to your .vimrc
 
-    set termguicolors
+    set termguicolors "Remove this in urxvt
     colo allomancer 
 
 ## The colorscheme isn't working?
@@ -35,25 +35,25 @@ This is still a work in progress and the colors I use aren't in the 256 xterm co
 
     *.color0:     #2c323c
     *.color8:     #55606d
-    
+
     *.color1:     #e06c75
     *.color9:     #af5f5f
-    
+
     *.color2:     #87AF87
     *.color10:    #87AF87
-    
+
     *.color3:     #D7AFAF
     *.color11:    #FF875F
-    
+
     *.color4:     #6E88A6
     *.color12:    #6E88A6
-    
+
     *.color5:     #D18EC2
-    *.color13:    #8787AF
-    
+    *.color13:    #875faf
+
     *.color6:     #5fafaf
     *.color14:    #5fafaf
-    
+
     *.color7:     #ABB2BF
     *.color15:    #ECEFF4
 
