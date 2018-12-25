@@ -134,7 +134,7 @@ call Highlight("Special", s:beige, s:black, s:none)
 call Highlight("Statement", s:dark_red, s:black, s:none)
 call Highlight("String", s:green, s:black, s:none)
 call Highlight("Todo", s:purple, s:black, s:reverse)
-call Highlight("Type", s:purple, s:black, s:none)
+call Highlight("Type", s:dark_purple, s:black, s:none)
 call Highlight("StorageClass", s:light_red, s:black, s:none)
 call Highlight("TypeDef", s:purple, s:black, s:none)
 call Highlight("Underlined", s:aqua, s:black, s:underline)
@@ -158,6 +158,9 @@ call Highlight("StartifyHeader", s:green, s:black, s:none)
 "NERDTree
 call Highlight("NERDTreeDir", s:blue, s:black, s:none)
 call Highlight("NERDTreeUp", s:blue, s:black, s:none)
+
+"netrw
+call Highlight("netrwDir", s:blue, s:black, s:none)
 
 
 let links = [
