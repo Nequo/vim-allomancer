@@ -132,11 +132,11 @@ call Highlight("Search", s:black, s:aqua, s:bold_underline)
 
 call Highlight("Comment", s:grey, s:none, s:none)
 call Highlight("Constant", s:orange, s:black, s:none)
-call Highlight("Identifier", s:beige, s:black, s:none)
-call Highlight("Function", s:blue, s:black, s:none)
+call Highlight("Identifier", s:blue, s:black, s:none)
+call Highlight("Function", s:beige, s:black, s:none)
 call Highlight("Ignore", s:none, s:none, s:none)
 call Highlight("PreProc", s:aqua, s:black, s:none)
-call Highlight("Special", s:beige, s:black, s:none)
+call Highlight("Special", s:green, s:black, s:none)
 call Highlight("Statement", s:dark_red, s:black, s:none)
 call Highlight("String", s:green, s:black, s:none)
 call Highlight("Todo", s:purple, s:black, s:reverse)
@@ -149,7 +149,7 @@ call Highlight("Title", s:white, s:black, s:none)
 
 "Haskell (https://raw.githubusercontent.com/sdiehl/haskell-vim-proto/master/vim/syntax/haskell.vim)
 call Highlight("ConId", s:beige, s:black, s:none)
-call Highlight("hsType", s:dark_purple, s:black, s:none)
+call Highlight("hsType", s:purple, s:black, s:none)
 
 "Markdown
 call Highlight("markdownBold", s:white, s:black, s:bold)

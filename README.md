@@ -6,15 +6,15 @@ The name is inspired by Brandon Sanderson's awesome book series [Mistborn](https
 
 ## Main color palette
 
-| Color name       |Color Code | Color         | Main use         | 
-|------------------|---------- |---------------|------------------|
-| Blue             | `#6E88A6` |![#6E88A6](https://placehold.it/100x40/6E88A6/111111?text=+)| Functions        |
-| Beige            | `#D7AFAF` |![#D7AFAF](https://placehold.it/100x40/D7AFAF/000000?text=+)| Identifiers      |
-| Green            | `#87AF87` |![#87AF87](https://placehold.it/100x40/87AF87/000000?text=+)| Strings          |
-| Red              | `#af5f5f` |![#af5f5f](https://placehold.it/100x40/af5f5f/000000?text=+)| Statements       |
-| Orange           | `#FF875F` |![#FF875F](https://placehold.it/100x40/FF875F/000000?text=+)| Constants        |
-| Purple           | `#875faf` |![#875faf](https://placehold.it/100x40/875faf/000000?text=+)| Types            |
-| Aqua             | `#5fafaf` |![#5fafaf](https://placehold.it/100x40/5fafaf/000000?text=+)| Focus/Highlights |
+| Color name       |Color Code | Color                                                      | Main use              | 
+|------------------|---------- |------------------------------------------------------------|-----------------------| 
+| Blue             | `#6E88A6` |![#6E88A6](https://placehold.it/100x40/6E88A6/111111?text=+)| Identifiers           |
+| Beige            | `#D7AFAF` |![#D7AFAF](https://placehold.it/100x40/D7AFAF/000000?text=+)| Functions             |
+| Green            | `#87AF87` |![#87AF87](https://placehold.it/100x40/87AF87/000000?text=+)| Strings and Special   |
+| Red              | `#af5f5f` |![#af5f5f](https://placehold.it/100x40/af5f5f/000000?text=+)| Statements            |
+| Orange           | `#FF875F` |![#FF875F](https://placehold.it/100x40/FF875F/000000?text=+)| Constants             |
+| Purple           | `#875faf` |![#875faf](https://placehold.it/100x40/875faf/000000?text=+)| Types                 |
+| Aqua             | `#5fafaf` |![#5fafaf](https://placehold.it/100x40/5fafaf/000000?text=+)| Focus and Highlights  |
 
 ## Installation
 
