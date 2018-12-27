@@ -43,7 +43,7 @@ This is still a work in progress and the colors I use aren't in the 256 xterm co
     *.foreground: #abb2bf
     *.background: #282c34
 
-    *.color0:     #2c323c
+    *.color0:     #282c34
     *.color8:     #55606d
 
     *.color1:     #e06c75
