@@ -78,7 +78,7 @@ call Highlight("Conceal", s:none, s:none, s:none)
 call Highlight("LineNr", s:grey, s:black, s:none)
 call Highlight("FoldColumn", s:light_grey, s:black, s:none)
 call Highlight("Folded", s:light_grey, s:black, s:none)
-call Highlight("MatchParen", s:black, s:aqua, s:none)
+call Highlight("MatchParen", s:aqua, s:dark_grey, s:none)
 
 call Highlight("SignColumn", s:light_grey, s:black, s:none)
 call Highlight("NonText", s:dark_grey, s:none, s:none)
@@ -130,7 +130,7 @@ call Highlight("IncSearch", s:black, s:dark_red, s:bold_underline)
 call Highlight("Search", s:black, s:aqua, s:bold_underline)
 
 
-call Highlight("Comment", s:grey, s:none, s:none)
+call Highlight("Comment", s:grey, s:none, s:italic)
 call Highlight("Constant", s:orange, s:black, s:none)
 call Highlight("Identifier", s:blue, s:black, s:none)
 call Highlight("Function", s:beige, s:black, s:none)
