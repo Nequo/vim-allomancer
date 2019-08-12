@@ -78,7 +78,7 @@ call Highlight("Conceal", s:none, s:none, s:none)
 call Highlight("LineNr", s:grey, s:black, s:none)
 call Highlight("FoldColumn", s:light_grey, s:black, s:none)
 call Highlight("Folded", s:light_grey, s:black, s:none)
-call Highlight("MatchParen", s:black, s:aqua, s:none)
+call Highlight("MatchParen", s:grey, s:aqua, s:reverse)
 
 call Highlight("SignColumn", s:light_grey, s:black, s:none)
 call Highlight("NonText", s:dark_grey, s:none, s:none)
